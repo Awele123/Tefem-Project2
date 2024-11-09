@@ -312,13 +312,13 @@ ul{
            
         }
         .text {
-            display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
             height: 30vh;
-                   
-                }
+        }
+          .text p{
+text-align: center;
+          }
+                
           .imagecon {
               width: 400px;
               height: 400px;
