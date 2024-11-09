@@ -314,7 +314,7 @@ ul{
           }
     
           .imagecon img {
-              height: 50vh;
+              height: 100%;
               width: 100%;
               object-fit: cover;
           }
@@ -324,7 +324,7 @@ ul{
         }
         .about-text {
             font-size: 30px;
-            height: 50vh;
+            height: 60vh;
                   }
 
         .service-container {
@@ -404,7 +404,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 60vh;
 }
 .tasty-food {
     display: flex;
