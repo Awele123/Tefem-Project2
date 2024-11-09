@@ -308,6 +308,7 @@ ul{
            
         }
         .text {
+            align-items: center;
             height: 30vh;
                    
                 }
