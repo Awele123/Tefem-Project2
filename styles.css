@@ -295,7 +295,10 @@ ul{
             margin-right: 10px auto;
             justify-content: space-evenly;
         }
-    
+    .hero{
+        width: 100vw;
+        height: 100vh;
+    }
         .logo {
             margin-right: 0px;
         }
