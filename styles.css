@@ -299,6 +299,10 @@ ul{
         .cont-nav{
             display: none;
         }
+                 .text {
+                     align-items: center;
+                     height: 35vh;
+                 }
     .hero{
         
         height: 100vh;
@@ -311,10 +315,7 @@ ul{
             flex-direction: column;
            
         }
-        .text {
-         align-items: center;
-            height: 40vh;
-        }
+       
           .text p{
 text-align: center;
           }
