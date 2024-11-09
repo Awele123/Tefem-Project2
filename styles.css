@@ -292,11 +292,15 @@ ul{
     .unordered {
             display: flex;
             flex-direction: row;
+            
             margin-right: 10px auto;
             justify-content: space-evenly;
         }
+        .cont-nav{
+            display: none;
+        }
     .hero{
-        width: 100vw;
+        
         height: 100vh;
     }
         .logo {
