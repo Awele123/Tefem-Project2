@@ -301,7 +301,7 @@ ul{
         }
                  .text {
                      align-items: center;
-                     height: 35vh;
+                     height: 50vh;
                  }
     .hero{
         
@@ -321,8 +321,8 @@ text-align: center;
           }
                 
           .imagecon {
-              width: 400px;
-              height: 400px;
+              width: 300px;
+              height: 300px;
           }
     
           .imagecon img {
@@ -332,6 +332,8 @@ text-align: center;
           }
         
         .about-imagecon {
+            width: 300px;
+            height: 300px;
             margin-right: 0px;
         }
         .about-text {
