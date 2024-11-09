@@ -1,17 +1,24 @@
-.navbar{
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+.unordered{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    margin: 20px 80px;
+    gap: 10px;
+    align-items: center;
     justify-content:space-between; 
+   
 }
+
 .logo{
-   margin-right: 500px;
+   margin-right: 600px;
 }
 .home a{
     color: green;
 }
-.navbar a{
+.unordered a{
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -61,14 +68,6 @@
     padding: 10px;
     border-radius: 6px;
 }
-.about-bodycon {
-    display: flex;
-    gap: 80px;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    margin: 70px;
-}
 .about-imagecon{
     width: 400px;
     height: 400px;
@@ -107,9 +106,7 @@
     font-size: 40px;
     font-weight: 500;
 }
-hr{
-    box-shadow: 10px;
-}
+
 .box img{
     color: green;
 }
@@ -162,7 +159,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
    
 }
 .service-container{
@@ -290,4 +287,163 @@ ul{
     border-radius: 50%;
     padding: 3px;
     
+}
+@media screen and (max-width:700px){
+    .unordered {
+            display: flex;
+            flex-direction: row;
+            margin-right: 10px auto;
+            justify-content: space-evenly;
+        }
+    
+        .logo {
+            margin-right: 0px;
+        }
+        .bodycon {
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .text {
+            height: 30vh;
+                   
+                }
+          .imagecon {
+              width: 400px;
+              height: 400px;
+          }
+    
+          .imagecon img {
+              height: 50vh;
+              width: 100%;
+              object-fit: cover;
+          }
+        
+        .about-imagecon {
+            margin-right: 0px;
+        }
+        .about-text {
+            font-size: 30px;
+            height: 50vh;
+                  }
+
+        .service-container {
+                     display: flex;
+                     flex-direction: column;
+                     gap: 10px;
+                     justify-content: center;
+                     align-items: center;
+                 }
+        
+        .menu-container {
+                     display: flex;
+                     justify-content: center;
+                     gap: 20px;
+                     margin-bottom: 0px;
+                 }
+       
+        .bod p {
+            margin: 20px;
+            text-align: center;
+        }
+
+     .amaze {
+        font-size: 40px;
+    }
+    .serve {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px; 
+    }
+    .special
+    {
+       font-size: 30px;
+    }
+
+    .menu-intro {
+        margin-top: 70px;
+        text-align: center;
+    }
+   
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 30px;
+    }
+    .food-box {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 0 auto;
+        height: 30vh;
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact-text {
+    margin: 0 auto;
+    width: 300px;
+    height: 10vh;
+}
+.contact-btn {
+    background-color: green;
+    padding: 20px;
+    font-size: 20px;
+    border: 0px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 8px;
+}
+.contact-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+}
+.tasty-food {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin: 0px;
+    align-items: center;
+    justify-content:center;
+}
+.tasty-text {
+   font-size: 40px;
+}
+.rest{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cont,
+.reserve{
+    text-align: center;
+    margin:  auto;
+}
+
+.list{
+    text-align: center;
+}
+.ser-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 20px;
+}
+.talk {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+
+}
+
 }
